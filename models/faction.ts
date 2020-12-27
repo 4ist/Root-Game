@@ -1,0 +1,3 @@
+interface Faction {
+    getDaylightActions() : string;
+}
