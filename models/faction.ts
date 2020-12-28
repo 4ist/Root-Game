@@ -1,3 +1,5 @@
 interface Faction {
-    getDaylightActions() : string;
+    getDaylightActions(): string;
+
+    doesRule(clearing: Clearing): boolean;
 }
